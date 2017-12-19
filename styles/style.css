@@ -1,0 +1,90 @@
+/* Universal reset base consequat
+  General helper
+  Universal stylesheet
+  Header & footer
+  Modular elements
+    - element names
+    - forms
+*/
+
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  }
+
+img {
+  max-width: 100%; /* This ensures an image never breaks it's container */
+}
+
+/*---------General  helper classes------------*/
+
+.left     {text-align: left;}
+.centered {text-align: center;}
+
+/*---------header and footer sections--------*/
+
+
+footer, footer a {
+    color:white;
+}
+
+header {
+    color: grey;
+    min-height:60vh;
+    background-image:url("../images/food.jpg");
+    background-size: cover;
+    background-position: 71% 25%;
+    padding:5%;
+}
+
+section {
+    padding:5%;
+}
+
+footer {
+    background: linear-gradient(to right, #92bddb, #9C89B8, #5D5E60);
+    padding: 10%;
+}
+
+a{color: blue;}
+
+a:hover {
+  colour: blue;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+p, h1, h2, h3, h4, hr, ul {
+  margin:2%
+}
+
+li {
+  list-style-position: inside
+}
+
+h1 {
+  font-family: 'Arimo', sans-serif;
+}
+
+h2 {
+  color:grey;
+}
+
+hr {
+  width:60px;
+  border:2px solid grey;
+}
+
+footer h2 {
+  color:white
+}
+
+footer hr {
+  margin: 2% auto;
+  border: 2px solid white;
+}
